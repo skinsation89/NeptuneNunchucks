@@ -1,0 +1,287 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap" rel="stylesheet">
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+            
+     <title>Neptune Nunchucks</title>
+     <style>
+         header {
+             background: url(img/neptune.jpg);
+             background-size: cover;
+             background-position: center;
+             min-height: 2500px;
+             
+         }
+         
+         .brand-logo{
+             font-family: Faster One;
+         }
+
+         .section {
+             padding-top: 4vw;
+             padding-bottom: 4vw;
+         }
+
+
+         li {
+             font-family: Turret Road;
+        
+            
+         }
+
+        
+
+         @media screen and (max-width: 670px) {
+             header {
+                 min-height: 500px;
+             }
+         }
+     </style>
+    
+    
+</head>
+<body>
+    
+  <!-- navbar -->
+  <header>
+      <nav class="nav-wrapper transparent">
+          <div class="container">
+              <a href="#" class="brand-logo pink-text darken-3 hide-on-med-and-down">Neptune Nunchucks</a>
+              <a href="#" class="brand-logo pink-text darken-3 hide-on-large-only">NN</a>
+              <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                  <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="#photos">Photos</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a></li>
+                  <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a></li>
+                <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a></li>
+              </ul>
+              <ul class="sidenav pink darken-2" id="mobile-menu">
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="photos">
+            
+        <div class="slider">
+            <ul class="slides">
+            <li>
+                <img src="img/tech.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                <h3>Technology</h3>
+                <h5 class="light grey-text text-lighten-3">We are the industry leader in Tech services!</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/buildings.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                <h3>Architecture</h3>
+                <h5 class="light grey-text text-lighten-3">Builders of a new tomorrow.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/connect.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                <h3>IoT</h3>
+                <h5 class="light grey-text text-lighten-3">Expanding the connection between cyber and real.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/space.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                <h3>Interstellar</h3>
+                <h5 class="light grey-text text-lighten-3">At the forefront of colonizing the stars.</h5>
+                </div>
+            </li>
+            </ul>
+        </div>
+
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="img/mountain.jpg" alt="" class="responsive-img">
+      </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="container section scrollspy" id="services">
+      <div class="row">
+          <div class="col s12 l4">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="img/purple.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/splotch.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="img/ink.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="img/strands.jpg"></a>
+                <a class="carousel-item" href="#five!"><img src="img/cloud.jpg"></a>
+            </div>
+                
+          </div>
+          <div class="col s12 l6 offset-l2">
+              <ul class="tabs">
+                  <li class="tab col s6" >
+                      <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+                  </li>
+                  <li class="tab col s6" >
+                    <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+                </li>
+              </ul>
+              <div class="col s12" id="photography">
+                  <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, accusamus porro! E
+                      xcepturi laudantium odit distinctio quod impedit non,
+                       libero deleniti rem ducimus, sunt optio perspiciatis aperiam. Quidem fugiat asperiores sunt.</p>
+              </div>
+              <div class="col s12" id="editing">
+                <p class="flow-text indigo-text text-darken-4">EDITING</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, accusamus porro! E
+                    xcepturi laudantium odit distinctio quod impedit non,
+                     libero deleniti rem ducimus, sunt optio perspiciatis aperiam. Quidem fugiat asperiores sunt.</p>
+            </div>
+
+          </div>
+      </div>
+
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+        <img src="img/gate.jpg" alt="" class="responsive-img">
+    </div>
+</div>
+
+  <!-- contact form -->
+  <section class="container section scrollspy" id="contact">
+      <div class="row">
+          <div class="col s12 l5">
+              <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae incidunt enim fugit nulla. 
+                  Ratione, molestias qui esse, aliquam omnis quidem odio aperiam dicta alias sequi obcaecati sed numquam tempora magni.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae dicta optio
+                   eligendi odit excepturi quia magni quam nostrum! Tenetur suscipit maiores ex quae voluptate excepturi eaque eveniet distinctio dicta officiis.</p>
+          </div>
+          <div class="col s12 l5 offset-l2">
+              <form action="">
+                  <div class="input-field">
+                      <i class="material-icons prefix">email</i>
+                      <input type="email" id="email">
+                      <label for="email">Email</label>
+                  </div>
+                  <div class="input-field">
+                      <i class="material-icons prefix">message</i>
+                      <textarea  id="message" class="materialize-textarea"></textarea>
+                      <label for="message">Leave a Message</label>
+                  </div>
+                  <div class="input-field">
+                      <input type="text" id="date" class="datepicker">
+                      <label for="date">Pick a Service Date...</label>
+                  </div>
+                  <div class="input-field">
+                      <p>Services required...</p>
+                      <p>
+                          <label>
+                              <input type="checkbox">
+                              <span>Photography</span>
+                          </label>
+                      </p>
+                      <p>
+                        <label>
+                            <input type="checkbox">
+                            <span>Editing</span>
+                        </label>
+                    </p>
+                  </div>
+                  <div class="input-field center">
+                      <button class="btn">Submit</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+      <div class="container">
+          <div class="row">
+              <div class="col s12 l6">
+                  <h5>About Me</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, esse repellendus ipsam,
+                       laboriosam voluptates eum sit quo porro ea neque quos sapiente aspernatur
+                        atque necessitatibus assumenda inventore? Commodi, minima ut?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi, 
+                      laudantium dolor quia distinctio voluptatibus doloribus hic officia perspiciatis illum laborum! Tenetur soluta et rem, ullam earum iure aspernatur quas.</p>
+              </div>
+              <div class="col s12 l4 offset-l2">
+                  <h5>Connect</h5>
+                  <ul>
+                      <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                      <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                      <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                      <li><a href="#" class="grey-text text-lighten-3">Linkedin</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+          <div class="container center-align">&copy; 2021 Neptune Nunchucks </div>
+      </div> 
+  </footer>
+
+        
+        
+
+        
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+                disableWeekends: true
+            });
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+            $('.slider').slider();
+            $('.carousel').carousel({
+                padding: 10
+            });
+    
+        });
+    </script>
+    
+</body>
+</html>
